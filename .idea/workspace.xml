@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Datatypes" targetName="Datatypes" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3427708e-49cd-4f4f-9bbb-757cc92ca506" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1XnIAHiGGcrl5myJJVKFmZwvq3r" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager" selected="CMake Application.Datatypes">
+    <configuration name="Datatypes" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Datatypes" TARGET_NAME="Datatypes" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Datatypes" RUN_TARGET_NAME="Datatypes">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Datatypes" TARGET_NAME="Datatypes" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/main.cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Datatypes" />
+      <item itemvalue="CMake Application.Main" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3427708e-49cd-4f4f-9bbb-757cc92ca506" name="Default Changelist" comment="" />
+      <created>1581675286620</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581675286620</updated>
+      <workItem from="1581675290063" duration="6484000" />
+      <workItem from="1581923577511" duration="21299000" />
+      <workItem from="1582013695043" duration="1973000" />
+      <workItem from="1582020498152" duration="5309000" />
+      <workItem from="1582095500108" duration="14085000" />
+      <workItem from="1582701233059" duration="1957000" />
+      <workItem from="1583131238756" duration="4682000" />
+      <workItem from="1583310294106" duration="8894000" />
+      <workItem from="1583489581826" duration="2221000" />
+      <workItem from="1583495342371" duration="2170000" />
+      <workItem from="1583759399342" duration="3745000" />
+      <workItem from="1583818236389" duration="6256000" />
+      <workItem from="1584001622534" duration="5409000" />
+      <workItem from="1584014585198" duration="2360000" />
+      <workItem from="1584020101594" duration="2514000" />
+      <workItem from="1584084534185" duration="7287000" />
+      <workItem from="1584365775270" duration="1500000" />
+      <workItem from="1584425784557" duration="1349000" />
+      <workItem from="1584446461167" duration="5235000" />
+      <workItem from="1585736439585" duration="2123000" />
+      <workItem from="1587538168778" duration="12046000" />
+      <workItem from="1587711978819" duration="3894000" />
+      <workItem from="1588139988940" duration="8906000" />
+      <workItem from="1589298857946" duration="2915000" />
+      <workItem from="1589352376484" duration="3314000" />
+      <workItem from="1589872556213" duration="4555000" />
+      <workItem from="1590403785144" duration="2419000" />
+      <workItem from="1590413470402" duration="1624000" />
+      <workItem from="1591704794642" duration="4419000" />
+      <workItem from="1592555184401" duration="6067000" />
+      <workItem from="1592809602990" duration="1315000" />
+      <workItem from="1595573389310" duration="5701000" />
+      <workItem from="1596189169848" duration="4041000" />
+      <workItem from="1596448455766" duration="6197000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1596462151443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596462151443" />
+    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1596462151442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596462151442" />
+    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1596462151442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596462151442" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1596462151442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596462151442" />
+    <state x="668" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1599206556618">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599206556618" />
+    <state x="623" y="229" width="672" height="608" key="search.everywhere.popup" timestamp="1596448903610">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="229" width="672" height="608" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596448903610" />
+  </component>
+</project>

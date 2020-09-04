@@ -1,0 +1,296 @@
+using namespace Array;
+
+int main() {
+
+    int a_init[5] = {1,2,3,4,5};
+
+    Array::DynamicArray<int> arr(a_init, 5);
+
+    arr.get_array();
+    arr.append(6);
+    arr.get_array();
+    arr.append(7);
+    arr.get_array();
+    arr.append(8);
+    arr.get_array();
+    arr.append(9);
+    arr.get_array();
+    arr.insert(17, 17);
+    arr.get_array();
+
+    return 0;
+}
+
+
+
+
+
+using namespace Queues;
+
+int main() {
+
+    Queues::Queue<int> intQueue;
+
+    intQueue.enqueue(1);
+    intQueue.enqueue(2);
+    intQueue.enqueue(3);
+    intQueue.enqueue(4);
+    intQueue.enqueue(5);
+    intQueue.enqueue(6);
+    intQueue.print_size();
+
+    int* a = intQueue.dequeue();
+    std::cout << "Dequeued: " << *a << std::endl;
+    intQueue.print_size();
+
+    int* b = intQueue.dequeue();
+    std::cout << "Dequeued: " << *b << std::endl;
+    intQueue.print_size();
+
+    intQueue.peek();
+
+    bool x = intQueue.contains(2);
+    std::cout << "Contains: " << x << std::endl;
+    bool y = intQueue.contains(4);
+    std::cout << "Contains: " << y << std::endl;
+    std::cout << " " << std::endl;
+
+    intQueue.remove(2);
+    intQueue.remove(4);
+    intQueue.print_size();
+    bool g = intQueue.contains(4);
+    std::cout << "Contains: " << g << std::endl;
+
+
+    bool u = intQueue.is_empty();
+    std::cout << "Is empty: " << u << std::endl;
+    int* c = intQueue.dequeue();
+    int* d = intQueue.dequeue();
+    bool v = intQueue.is_empty();
+    std::cout << "Is empty: " << v << std::endl;
+    intQueue.print_size();
+    int* e = intQueue.dequeue();
+    bool w = intQueue.is_empty();
+    std::cout << "Is empty: " << w << std::endl;
+
+    return 0;
+}
+
+
+
+
+
+
+using namespace PriorityQueues;
+
+int main() {
+
+    PriorityQueues::BinaryPQ<int> pq;
+
+    pq.add(10);
+    pq.add(20);
+    pq.add(21);
+    pq.add(30);
+    pq.add(31);
+    pq.add(32);
+    pq.add(33);
+    pq.add(40);
+    pq.add(41);
+    pq.add(42);
+    pq.add(43);
+    pq.add(44);
+    pq.add(45);
+    pq.add(46);
+    pq.add(47);
+
+    pq.print_tree();
+
+
+    pq.contains(1);
+    pq.contains(33);
+
+    pq.peek();
+
+    pq.poll();
+
+    pq.print_tree();
+
+    pq.remove(4);
+    pq.remove(33);
+
+    pq.print_tree();
+
+    return 0;
+}
+
+
+
+
+// UNION FIND DOES NOT WORK YET!!!!
+
+
+
+
+
+using namespace Trees;
+using namespace std;
+
+int main() {
+
+    Trees::BinarySearchTree<int> bst;
+
+
+
+    bst.insert(0);
+    bst.insert(-5);
+    bst.insert(-7);
+    bst.insert(-8);
+    bst.insert(-6);
+    bst.insert(-2);
+    bst.insert(-1);
+    bst.insert(5);
+    bst.insert(7);
+    bst.insert(6);
+    bst.insert(2);
+    bst.insert(1);
+    bst.insert(8);
+
+    bst.levelorder(bst.get_root());
+
+    bst.remove(4);
+    cout << "Remove " << 4 << endl;
+    cout << "[ ";
+    bst.inorder(bst.get_root());
+    cout << " ]" << "\n\n";
+
+    bst.remove(-8);
+    cout << "Remove " << 8 << endl;
+    cout << "[ ";
+    bst.inorder(bst.get_root());
+    cout << " ]" << "\n\n";
+
+    bst.remove(2);
+    cout << "Remove " << 2 << endl;
+    cout << "[ ";
+    bst.inorder(bst.get_root());
+    cout << " ]" << "\n\n";
+
+    bst.remove(0);
+    cout << "Remove " << 0 << endl;
+    cout << "[ ";
+    bst.inorder(bst.get_root());
+    cout << " ]" << "\n\n";
+
+    Node<int>* root = bst.get_root();
+    cout << "Root " << root << " -> " << root->value << endl;
+
+    bst.levelorder(bst.get_root());
+
+    return 0;
+}
+
+
+
+// Separate Chaining
+
+
+using namespace std;
+
+
+int main() {
+
+
+    HashTables::SC<int> sc(2.0);
+    sc.insert(HashTables::pair<int>(0,10));
+    sc.insert(HashTables::pair<int>(1,20));
+
+    auto a = sc.find(HashTables::pair<int>(2,10));
+    cout << "List #" << a.first << "  at idx #" << a.second << endl;
+    auto b = sc.find(HashTables::pair<int>(0,11));
+    cout << "List #" << b.first << "  at idx #" << b.second << endl;
+    auto c = sc.find(HashTables::pair<int>(1,20));
+    cout << "List #" << c.first << "  at idx #" << c.second << endl;
+
+    sc.insert(HashTables::pair<int>(2,30));
+    sc.insert(HashTables::pair<int>(3,11));
+    sc.insert(HashTables::pair<int>(4,21));
+
+    auto d = sc.find(HashTables::pair<int>(0,10));
+    cout << "List #" << d.first << "  at idx #" << d.second << endl;
+    auto e = sc.find(HashTables::pair<int>(1,10));
+    cout << "List #" << e.first << "  at idx #" << e.second << endl;
+
+    // insert works
+    // find works
+
+    sc.get_info();
+    // info works
+
+
+    sc.remove(HashTables::pair<int>(1,20));
+    // remove works
+
+    // print works
+    sc.print_table();
+
+
+    sc.insert(HashTables::pair<int>(3,12));
+    sc.insert(HashTables::pair<int>(4,22));
+    sc.insert(HashTables::pair<int>(4,23));
+
+    sc.print_table();
+
+
+    return 0;
+
+
+}
+
+
+
+// Fenwick Tree
+
+int main() {
+
+
+    Trees::FenwickTree<int> fenwick(16);
+
+
+    cout << "LSB method" << endl;
+    int res1 = fenwick.LSB_wrapper(1);
+    cout << 1 << " => " << res1 << endl;
+
+    int res2 = fenwick.LSB_wrapper(2);
+    cout << 2 << " => " << res2 << endl;
+
+    int res7 = fenwick.LSB_wrapper(7);
+    cout << 7 << " => " << res7 << endl;
+
+    int res16 = fenwick.LSB_wrapper(16);
+    cout << 16 << " => " << res16 << endl;
+
+    cout << "works.." << "\n\n" << endl;
+
+    int arr[16];
+    for (int i=0; i < sizeof(arr)/ sizeof(*arr); i++){
+        arr[i] = 1;
+    }
+
+    cout << "Fenwick Tree construction" << endl;
+    fenwick.construct(arr);
+    fenwick.print_tree();
+    cout << "works.." << "\n\n" << endl;
+
+    cout << "RangeSum method" << endl;
+    fenwick.range_sum(1, 5);
+    cout << "works.." << "\n\n" << endl;
+
+
+    cout << "Point Update method" << endl;
+    fenwick.point_update(5, 100);
+    fenwick.print_tree();
+    cout << "works.." << "\n\n" << endl;
+
+    return 0;
+
+}

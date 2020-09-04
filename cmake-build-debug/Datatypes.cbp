@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Datatypes"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/LIGHTNING\ X-TREME/Documents/Datatypes/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/LIGHTNING\ X-TREME/Documents/Datatypes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/LIGHTNING\ X-TREME/Documents/Datatypes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/LIGHTNING\ X-TREME/Documents/Datatypes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/LIGHTNING\ X-TREME/Documents/Datatypes/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/LIGHTNING\ X-TREME/Documents/Datatypes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/LIGHTNING\ X-TREME/Documents/Datatypes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/LIGHTNING\ X-TREME/Documents/Datatypes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Datatypes">
+				<Option output="/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/cmake-build-debug/Datatypes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/LIGHTNING\ X-TREME/Documents/Datatypes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Datatypes"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/LIGHTNING\ X-TREME/Documents/Datatypes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/LIGHTNING\ X-TREME/Documents/Datatypes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/LIGHTNING\ X-TREME/Documents/Datatypes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Datatypes/fast">
+				<Option output="/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/cmake-build-debug/Datatypes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/LIGHTNING\ X-TREME/Documents/Datatypes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Datatypes/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/LIGHTNING\ X-TREME/Documents/Datatypes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/LIGHTNING\ X-TREME/Documents/Datatypes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/LIGHTNING\ X-TREME/Documents/Datatypes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/LIGHTNING\ X-TREME/Documents/Datatypes/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/LIGHTNING\ X-TREME/Documents/Datatypes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/LIGHTNING\ X-TREME/Documents/Datatypes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/LIGHTNING\ X-TREME/Documents/Datatypes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/BinarySearchTree.cpp">
+			<Option target="Datatypes"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/DynamicArray.cpp">
+			<Option target="Datatypes"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/FenwickTree.cpp">
+			<Option target="Datatypes"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/HashTable.cpp">
+			<Option target="Datatypes"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/Interfaces.h">
+			<Option target="Datatypes"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/LinkedList.cpp">
+			<Option target="Datatypes"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/PriorityQueue.cpp">
+			<Option target="Datatypes"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/Queue.cpp">
+			<Option target="Datatypes"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/Stack.cpp">
+			<Option target="Datatypes"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/SuffixArray.cpp">
+			<Option target="Datatypes"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/UnionFind.cpp">
+			<Option target="Datatypes"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/main.cpp">
+			<Option target="Datatypes"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/Interfaces.h
+array
+-
+forward_list
+-
+vector
+-
+string
+-
+
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/SuffixArray.cpp
+Interfaces.h
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/Interfaces.h
+string
+-
+vector
+-
+algorithm
+-
+iostream
+-
+
