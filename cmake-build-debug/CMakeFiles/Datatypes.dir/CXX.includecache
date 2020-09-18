@@ -6,6 +6,40 @@
 
 #IncludeRegexTransform: 
 
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/BinarySearchTree.cpp
+iostream
+-
+queue
+-
+vector
+-
+Interfaces.h
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/Interfaces.h
+
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/DynamicArray.cpp
+math.h
+-
+iostream
+-
+Interfaces.h
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/Interfaces.h
+
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/FenwickTree.cpp
+Interfaces.h
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/Interfaces.h
+iostream
+-
+
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/HashTable.cpp
+iostream
+-
+array
+-
+forward_list
+-
+Interfaces.h
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/Interfaces.h
+
 /cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/Interfaces.h
 array
 -
@@ -15,6 +49,34 @@ vector
 -
 string
 -
+
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/LinkedList.cpp
+iostream
+-
+Interfaces.h
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/Interfaces.h
+
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/PriorityQueue.cpp
+iostream
+-
+vector
+-
+Interfaces.h
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/Interfaces.h
+cmath
+-
+
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/Queue.cpp
+iostream
+-
+Interfaces.h
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/Interfaces.h
+
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/Stack.cpp
+iostream
+-
+Interfaces.h
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/Interfaces.h
 
 /cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/SuffixArray.cpp
 Interfaces.h
@@ -31,4 +93,34 @@ unordered_map
 -
 unordered_set
 -
+
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/UnionFind.cpp
+iostream
+-
+Interfaces.h
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/Interfaces.h
+
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/main.cpp
+iostream
+-
+Interfaces.h
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/Interfaces.h
+DynamicArray.cpp
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/DynamicArray.cpp
+LinkedList.cpp
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/LinkedList.cpp
+Stack.cpp
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/Stack.cpp
+Queue.cpp
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/Queue.cpp
+PriorityQueue.cpp
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/PriorityQueue.cpp
+UnionFind.cpp
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/UnionFind.cpp
+BinarySearchTree.cpp
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/BinarySearchTree.cpp
+HashTable.cpp
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/HashTable.cpp
+FenwickTree.cpp
+/cygdrive/c/Users/LIGHTNING X-TREME/Documents/Datatypes/FenwickTree.cpp
 

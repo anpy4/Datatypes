@@ -258,6 +258,40 @@ namespace SuffixArrays{
 
 
 
+
+
+    LongestRepeatedSubstring::LongestRepeatedSubstring(std::string str) : LongestCommonPrefix(str){
+        this->s = str;
+    }
+
+    void LongestRepeatedSubstring::get_LRS() {
+        int max_lcp_value = 0;
+        unordered_set<string> res;
+
+        for (int i=0; i<this->lcpArray.size(); i++){
+            if (this->lcpArray[i] > max_lcp_value){
+                res.clear();
+                max_lcp_value = this->lcpArray[i];
+                string tmp = this->getSuffixFromSuffixArray(this->suffixArray[i]);
+                res.insert(tmp.substr(0,max_lcp_value));
+            }
+            else if (this->lcpArray[i] == max_lcp_value){
+                string tmp = this->getSuffixFromSuffixArray(this->suffixArray[i]);
+                res.insert(tmp.substr(0,max_lcp_value));
+            }
+        }
+
+        cout << "\n\nLongest repeated substring: " << max_lcp_value << endl;
+        for (const string &x : res) {
+            cout << x << "  ";
+        }
+
+
+    }
+
+
+
+
 }
 
 

@@ -294,3 +294,51 @@ int main() {
     return 0;
 
 }
+
+
+
+// SuffixArrays
+
+
+int main() {
+
+    /*
+    string s = "ABABBAB";
+    SuffixArrays::LongestCommonPrefix LCP(s);
+    LCP.buildSuffixArray();  // works
+    LCP.buildLcpArray();
+    LCP.printResult();
+    */
+
+    /*
+    string s1 = "AABC", s2 = "BCDC", s3 = "BCDE", s4 = "CDED";
+    vector<string> stringArray = {s1, s2, s3, s4};
+
+
+    SuffixArrays::LongestCommonSubstring LCS("", stringArray);
+    string res = LCS.getString();
+
+
+    LCS.buildSuffixArray();
+    LCS.buildLcpArray();
+    LCS.assignStringCategory();
+    LCS.printResult();
+
+    LCS.calculate_lcs(2);
+
+    */
+
+    string s = "ABRACADABRA";
+    SuffixArrays::LongestRepeatedSubstring LRS(s);
+    LRS.buildSuffixArray();
+    LRS.buildLcpArray();
+    LRS.printResult();
+
+    LRS.get_LRS();
+
+
+
+
+    return 0;
+
+}

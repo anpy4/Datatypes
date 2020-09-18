@@ -47,6 +47,16 @@ int main() {
 
     */
 
+    string s = "ABRACADABRA";
+    SuffixArrays::LongestRepeatedSubstring LRS(s);
+    LRS.buildSuffixArray();
+    LRS.buildLcpArray();
+    LRS.printResult();
+
+    LRS.get_LRS();
+
+
+
 
     return 0;
 
