@@ -357,6 +357,20 @@ namespace SuffixArrays{
         void assignStringCategory();
 
         void printResult();
+
+        void calculate_lcs(int k_common);
+    };
+
+
+
+    class LongestRepeatedSubstring : public LongestCommonPrefix{
+
+
+    public:
+
+        LongestRepeatedSubstring(std::string);
+        void get_LRS();
+
     };
 
 

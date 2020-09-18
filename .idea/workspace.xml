@@ -11,7 +11,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3427708e-49cd-4f4f-9bbb-757cc92ca506" name="Default Changelist" comment="" />
+    <list default="true" id="3427708e-49cd-4f4f-9bbb-757cc92ca506" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces.h" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuffixArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SuffixArray.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Datatypes.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Datatypes.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Datatypes.dir/SuffixArray.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Datatypes.dir/SuffixArray.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Datatypes.dir/UnionFind.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Datatypes.dir/UnionFind.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Datatypes.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Datatypes.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +31,11 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XnIAHiGGcrl5myJJVKFmZwvq3r" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +43,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -111,6 +126,11 @@
       <workItem from="1595573389310" duration="5701000" />
       <workItem from="1596189169848" duration="4041000" />
       <workItem from="1596448455766" duration="6197000" />
+      <workItem from="1599206556367" duration="492000" />
+      <workItem from="1599207064023" duration="3955000" />
+      <workItem from="1599807532827" duration="2698000" />
+      <workItem from="1600068981191" duration="4140000" />
+      <workItem from="1600408646089" duration="1748000" />
     </task>
     <servers />
   </component>
@@ -118,26 +138,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1596462151443">
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom" timestamp="1600410007807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596462151443" />
-    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1596462151442">
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600410007807" />
+    <state width="1877" height="248" key="GridCell.Tab.0.center" timestamp="1600410007807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596462151442" />
-    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1596462151442">
+    <state width="1877" height="248" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600410007807" />
+    <state width="1877" height="248" key="GridCell.Tab.0.left" timestamp="1600410007807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596462151442" />
-    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1596462151442">
+    <state width="1877" height="248" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600410007807" />
+    <state width="1877" height="248" key="GridCell.Tab.0.right" timestamp="1600410007807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596462151442" />
-    <state x="668" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1599206556618">
+    <state width="1877" height="248" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600410007807" />
+    <state x="668" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1600408648859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599206556618" />
+    <state x="668" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600408648859" />
     <state x="623" y="229" width="672" height="608" key="search.everywhere.popup" timestamp="1596448903610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
