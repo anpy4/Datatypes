@@ -7,6 +7,8 @@
 #include <vector>
 #include <algorithm>
 #include <iostream>
+#include <unordered_map>
+#include <unordered_set>
 
 using namespace std;
 
@@ -135,7 +137,7 @@ namespace SuffixArrays{
         return this->stringAssignmentArray;
     }
 
-    void LongestCommonSubstring::assignStringCategory() {
+    void LongestCommonSubstring::assignStringCategory() {  // works
 
         for (int suffixIndex: this->getSuffixArray()){
             string suffixString = this->getSuffixFromSuffixArray(suffixIndex);
@@ -151,7 +153,7 @@ namespace SuffixArrays{
 
     }
 
-    void LongestCommonSubstring::printResult(){
+    void LongestCommonSubstring::printResult(){  // works
 
         cout << "Sorted Index        "<<"LCP Value           "<<"String              " << "Suffix" <<"\n\n";
 
@@ -177,6 +179,78 @@ namespace SuffixArrays{
 
             cout << sa << lcp << stringAssignment << suffix << endl;
         }
+    }
+
+    void LongestCommonSubstring::calculate_lcs(int k_common) {  // works
+
+        unordered_map<int, int> category_map;
+        unordered_set<string> lcs;
+        int lcs_length = 0;
+
+        int window_start = 0 , window_end = 0;
+        int k_curr = 0;
+        int tmp_lcp_length;
+
+
+        while (window_start < this->lcpArray.size()){
+
+
+
+            // adjust window size and update the category-counter-map
+            if (k_curr < k_common){
+                // increase window size
+
+                if (window_end == this->lcpArray.size()) break; // stopping criteria
+
+                int cat_count_in_window = category_map[this->stringAssignmentArray[window_end]];
+                cat_count_in_window++;
+                category_map[this->stringAssignmentArray[window_end]] = cat_count_in_window;
+                window_end++;
+            }
+
+            else{
+                // decrease window size
+                category_map[this->stringAssignmentArray[window_start]]--;
+                window_start++;
+            }
+
+
+            // count current number of different colors
+            k_curr = 0;
+            for (auto i = category_map.begin(); i != category_map.end(); i++){
+                if (i->second > 0) k_curr++;
+            }
+
+            // if enough colors are present, get the smallest value of this lcp subarray
+            if (k_curr >= k_common){
+
+                tmp_lcp_length = 2147483627;
+                for (int i=window_start+1; i<window_end; i++){
+                    tmp_lcp_length = min(tmp_lcp_length, this->lcpArray[i]);
+                }
+
+                // is tmp result the best one?
+                if (tmp_lcp_length > lcs_length){
+                    lcs.clear();
+                    string tmp =  this->getSuffixFromSuffixArray(this->suffixArray[window_start]);
+                    lcs.insert(tmp.substr(0,tmp_lcp_length));
+                    lcs_length = tmp_lcp_length;
+                }
+                // is tmp result as good as the best one?
+                else if (tmp_lcp_length == lcs_length){
+                    string tmp =  this->getSuffixFromSuffixArray(this->suffixArray[window_start]);
+                    lcs.insert(tmp.substr(0,tmp_lcp_length));
+                }
+                // is tmp result worse than the best one?
+                // do nothing
+            }
+        }
+
+        cout << "\n\nLongest common substring: " << lcs_length << endl;
+        for (const string &x : lcs) {
+            cout << x << "  ";
+        }
+
     }
 
 

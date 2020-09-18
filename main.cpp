@@ -29,6 +29,7 @@ int main() {
     LCP.printResult();
     */
 
+    /*
     string s1 = "AABC", s2 = "BCDC", s3 = "BCDE", s4 = "CDED";
     vector<string> stringArray = {s1, s2, s3, s4};
 
@@ -40,10 +41,12 @@ int main() {
     LCS.buildSuffixArray();
     LCS.buildLcpArray();
     LCS.assignStringCategory();
-
-    vector<int> cat = LCS.getStringAssignmentArray();
-
     LCS.printResult();
+
+    LCS.calculate_lcs(2);
+
+    */
+
 
     return 0;
 
